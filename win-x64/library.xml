@@ -1,0 +1,177 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>library</name>
+    </assembly>
+    <members>
+        <member name="T:library.ListHelper">
+            <summary>
+             List Helper Class which provide helper function such as Swap, Printing function for list 
+            </summary>
+        </member>
+        <member name="M:library.ListHelper.Swap``1(System.Collections.Generic.List{``0},System.Int32,System.Int32)">
+            <summary>
+             A generic extension function that perform Swapping of 2 element of List of Object
+            </summary>
+             <remarks>
+             invalid index or list with &lt; 2 element will not be swap 
+             </remarks>
+             <example>
+             <code>
+             List &lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
+             listOfDouble.Swap(0,1);
+             Console.WriteLine(listOfDouble[0]);
+             Console.WriteLine(listOfDouble[1]);
+             </code>
+             </example>     
+        </member>
+        <member name="M:library.ListHelper.printList``1(System.Collections.Generic.List{``0})">
+            <summary>
+             A generic extension function that print all the content of list
+            </summary>
+             <remarks>
+             content of each object in list will be print using the result of toString() function
+             </remarks> 
+             <example>
+             <code>
+             List&lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
+             listOfDouble.printList();
+             </code>
+             </example>  
+        </member>
+        <member name="T:library.ListQuickSort">
+            <summary>
+             Class for performing Sort 
+            </summary>
+        </member>
+        <member name="M:library.ListQuickSort.PerformSort``1(System.Collections.Generic.List{``0})">
+            <summary>
+             Public extension method for Sorting Generic List of Object which extend IComparable
+            </summary>
+             <remarks>
+             Implement QuickSort Function 
+             </remarks>
+             <returns>
+             This Function perform sort inplace and return void
+             </returns>
+             <example>
+             <code>
+             List&lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
+             listOfDouble.PerformSort();
+             for(int i = 0; i &lt; listOfDouble.Count; i ++){
+                 Console.Write(listOfDouble[i]);
+                 Console.Write(" ")        
+            }
+             </code>
+             </example>
+        </member>
+        <member name="M:library.ListQuickSort.QuickSort``1(System.Collections.Generic.List{``0},System.Int32,System.Int32)">
+            <summary>
+             Quick Sort function 
+            </summary>
+             <remarks>
+             Private function 
+             </remarks>
+             <example>
+             <code>
+             List&lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
+             QuickSort(listOfDouble, 0, listOfDouble.Count-1);
+             for(int i = 0; i &lt; listOfDouble.Count; i ++){
+                 Console.Write(listOfDouble[i]);
+                 Console.Write(" ")        
+            }
+             </code>
+             </example>
+        </member>
+        <member name="M:library.ListQuickSort.Partition``1(System.Collections.Generic.List{``0},System.Int32,System.Int32)">
+            <summary>
+             Partition Function for QuickSort
+            </summary>
+             <remarks>
+             Private function 
+             </remarks>
+             <returns>
+             return an interger indicate the position of the Pivot in QuickSort
+             </returns>
+             <example>
+             <code>
+             List&lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
+             Partition(listOfDouble, 0, listOfDouble.Count-1);
+             for(int i = 0; i &lt; listOfDouble.Count; i ++){
+                 Console.Write(listOfDouble[i]);
+                 Console.Write(" ")        
+            }
+             </code>
+             </example>
+        </member>
+        <member name="T:library.Name">
+            <summary>
+             Main name Class 
+             Wrapper class for Name input
+            </summary>
+        </member>
+        <member name="M:library.Name.#ctor(System.String)">
+            <summary>
+             Constructor for Name Class 
+             Take a String input 
+             split raw string input then initialize lastName and givenName
+            </summary>
+             <exception cref="T:System.ArgumentException">Thrown when string input is null 
+             or when string input contain onlt whitespace
+            </exception>
+        </member>
+        <member name="M:library.Name.CompareTo(library.Name)">
+            <summary>
+             Compare function of Name Class
+             Compare calling Name object with other Name object
+             Compare By firstName then by Given Name
+            </summary>
+             <returns>
+             return an integer 
+             result &lt; 0 if calling Name object is lesser than other Name object 
+             result == 0 if calling Name object is equal to other Name object
+             result &gt; 0 of cakkubg Bane ivhect us greater than other Name object
+             </returns>
+             <example>
+             <code>
+             Name name1 = New Name("John Mayer");
+             Name name2 = New Name("Matt Bellamy");
+             result = name1.compareTo(name2)
+             Console.WriteLine(result);
+             </code>
+             </example>
+        </member>
+        <member name="P:library.Name.LastName">
+             <value>Gets the value of firstName.</value>
+            <exampple>
+             <code>
+             Name name1 = New Name("John Mayer");
+             Console.WriteLine(name.LastName); 
+            </code>
+            </exampple>
+        </member>
+        <member name="P:library.Name.GivenName">
+             <value>Gets the value of givenName.</value>
+            <exampple>
+             <code>
+             Name name1 = New Name("John Mayer");
+             Console.WriteLine(name1.GivenName); 
+            </code>
+            </exampple>
+        </member>
+        <member name="M:library.Name.ToString">
+            <summary>
+             Override default ToString Method
+            </summary>
+             <returns>
+             return fullname of Name object
+             </returns>
+            <exampple>
+             <code>
+             Name name1 = New Name("John Mayer");
+             Console.WriteLine(name1.ToString()); 
+            </code>
+            </exampple>
+        </member>
+    </members>
+</doc>

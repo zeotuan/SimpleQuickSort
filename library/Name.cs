@@ -39,9 +39,9 @@ namespace library
         ///</summary>
         /// <returns>
         /// return an integer 
-        /// result < 0 if calling Name object is lesser than other Name object 
+        /// result &lt; 0 if calling Name object is lesser than other Name object 
         /// result == 0 if calling Name object is equal to other Name object
-        /// result > 0 of cakkubg Bane ivhect us greater than other Name object
+        /// result &gt; 0 of cakkubg Bane ivhect us greater than other Name object
         /// </returns>
         /// <example>
         /// <code>

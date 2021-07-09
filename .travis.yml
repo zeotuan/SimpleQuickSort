@@ -29,8 +29,7 @@ deploy:
     - win-x86.zip 
     - linux-x64.zip
     - osx-x64.zip
-
-skip_cleanup: true
-on:
-  tags: true
-  all_branches: true
+  skip_cleanup: true
+  on:
+    tags: true
+    

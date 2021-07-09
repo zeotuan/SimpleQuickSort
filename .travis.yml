@@ -7,4 +7,6 @@ install:
   - dotnet restore
 
 script:
+  - dotnet build
   - dotnet test test-library/test-library.csproj
+  - dotnet dotnet publish -c Release

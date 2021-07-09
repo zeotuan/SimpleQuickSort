@@ -47,7 +47,7 @@ run these following command to build your application
 
 #### 5. Downloading Executable:
 | Self-contained Release  |
-| ------------- |
+| :-------------: |
 | [linux-x64.zip](https://github.com/zeotuan/SimpleQuickSort/releases/download/0.0.1/linux-x64.zip)  |
 | [osx-x64.zip](https://github.com/zeotuan/SimpleQuickSort/releases/download/0.0.1/osx-x64.zip)  |
 | [win-x64.zip](https://github.com/zeotuan/SimpleQuickSort/releases/download/0.0.1/win-x64.zip)  |

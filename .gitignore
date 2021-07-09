@@ -453,4 +453,4 @@ $RECYCLE.BIN/
 !.vscode/launch.json
 !.vscode/extensions.json
 
-./sorted-names-list.txt
+sorted-names-list.txt

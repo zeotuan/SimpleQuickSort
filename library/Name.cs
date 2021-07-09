@@ -63,22 +63,6 @@ namespace library
             return lastNameResult;
         }
 
-        // public static bool operator > (Name operand1, Name operand2){
-        //     return operand1.CompareTo(operand2) > 0;
-        // }
-
-        // public static bool operator < (Name operand1, Name operand2){
-        //     return operand1.CompareTo(operand2) < 0;
-        // }
-
-        //  public static bool operator <= (Name operand1, Name operand2){
-        //     return operand1.CompareTo(operand2) <= 0;
-        // }
-
-        //  public static bool operator >= (Name operand1, Name operand2){
-        //     return operand1.CompareTo(operand2) >= 0;
-        // }
-
         /// <value>Gets the value of firstName.</value>
         ///<exampple>
         /// <code>
@@ -119,5 +103,21 @@ namespace library
         {
             return this.givenName + " " + this.lastName;
         }
+
+        // public static bool operator > (Name operand1, Name operand2){
+        //     return operand1.CompareTo(operand2) > 0;
+        // }
+
+        // public static bool operator < (Name operand1, Name operand2){
+        //     return operand1.CompareTo(operand2) < 0;
+        // }
+
+        //  public static bool operator <= (Name operand1, Name operand2){
+        //     return operand1.CompareTo(operand2) <= 0;
+        // }
+
+        //  public static bool operator >= (Name operand1, Name operand2){
+        //     return operand1.CompareTo(operand2) >= 0;
+        // }
     }
 }

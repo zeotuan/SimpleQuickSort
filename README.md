@@ -46,7 +46,7 @@ run these following command to build your application
 7. run:  name-sorter ./unsorted-name-list.txt or name-sorter unsorted-name-list.txt 
 
 #### 5. Downloading Executable:
-| First Header  |
+| Self-contained Release  |
 | ------------- |
 | [linux-x64.zip](https://github.com/zeotuan/SimpleQuickSort/releases/download/0.0.1/linux-x64.zip)  |
 | [osx-x64.zip](https://github.com/zeotuan/SimpleQuickSort/releases/download/0.0.1/osx-x64.zip)  |

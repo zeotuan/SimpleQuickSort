@@ -44,3 +44,11 @@ run these following command to build your application
 6. copy your unsorted-name-list.txt to this directory
 
 7. run:  name-sorter ./unsorted-name-list.txt or name-sorter unsorted-name-list.txt 
+
+#### 5. Downloading Executable:
+| First Header  |
+| ------------- |
+| [linux-x64.zip](https://github.com/zeotuan/SimpleQuickSort/releases/download/0.0.1/linux-x64.zip)  |
+| [osx-x64.zip](https://github.com/zeotuan/SimpleQuickSort/releases/download/0.0.1/osx-x64.zip)  |
+| [win-x64.zip](https://github.com/zeotuan/SimpleQuickSort/releases/download/0.0.1/win-x64.zip)  |
+| [win-x86.zip](https://github.com/zeotuan/SimpleQuickSort/releases/download/0.0.1/win-x86.zip)  |

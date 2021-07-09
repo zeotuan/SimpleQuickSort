@@ -18,12 +18,19 @@ namespace name_sorter
         ///</summary>
         static async Task Main(string[] args)
         {
-            string filename = args[0];
-            List<Name> nameList = readNameFile(filename);
-            nameList.PerformSort();
-            nameList.printList();
-            await writeFile(nameList,"sorted-names-list.txt");
-            
+            if(args == null || args.Length == 0)
+            {
+                Console.WriteLine("No argument was Passed! Press any key to exit");
+                Console.ReadLine();
+            }
+            else
+            {
+                string filename = args[0];
+                List<Name> nameList = readNameFile(filename);
+                nameList.PerformSort();
+                nameList.printList();
+                await writeFile(nameList,"sorted-names-list.txt");
+            }
         }
 
         ///<summary>

@@ -27,9 +27,20 @@ Contain all the unit tests for Library function <br />
 to run the tests use this command: dotnet test test-library/test-library.csproj 
 
 
-### 4. Setting up command:
+### 4. Setting up and Deploying:
+
+run these following command to build your application
 
 1. dotnet restore // restore all package 
 
 2. dotnet run -p name-sorter/name-sorter.csproj ./unsorted-name-list.txt  // run the application
 
+3. dotnet test test-library/test-library.csproj  // run all test. make sure that all test pass before building release
+
+4. dotnet test test-library/test-library.csproj  // create a framework dependent executable 
+
+5. cd name-sorter/bin/Release/net5.0/publish // change directory to where the executable was built
+
+6. copy your unsorted-name-list.txt to this directory
+
+7. run:  name-sorter ./unsorted-name-list.txt or name-sorter unsorted-name-list.txt 

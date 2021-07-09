@@ -3,6 +3,9 @@ using System.Collections.Generic;
 
 namespace library
 {
+    ///<summary>
+    /// List Helper Class which provide helper function such as Swap, Printing function for list 
+    ///</summary>
     public static class ListHelper
     {
 
@@ -10,11 +13,11 @@ namespace library
         /// A generic extension function that perform Swapping of 2 element of List of Object
         ///</summary>
         /// <remarks>
-        /// invalid index or list with < 2 element will not be swap 
+        /// invalid index or list with &lt; 2 element will not be swap 
         /// </remarks>
         /// <example>
         /// <code>
-        /// List&ltdouble&gt listOfDouble=  List&ltdouble&gt{ 1.2, 1.3, 1.4, 1.5 };
+        /// List &lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
         /// listOfDouble.Swap(0,1);
         /// Console.WriteLine(listOfDouble[0]);
         /// Console.WriteLine(listOfDouble[1]);
@@ -38,7 +41,7 @@ namespace library
         /// </remarks> 
         /// <example>
         /// <code>
-        /// List&ltdouble&gt listOfDouble=  List&ltdouble&gt{ 1.2, 1.3, 1.4, 1.5 };
+        /// List&lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
         /// listOfDouble.printList();
         /// </code>
         /// </example>  

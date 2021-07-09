@@ -19,9 +19,9 @@ namespace library
         /// </returns>
         /// <example>
         /// <code>
-        /// List&ltdouble&gt listOfDouble=  List&ltdouble&gt{ 1.2, 1.3, 1.4, 1.5 };
+        /// List&lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
         /// listOfDouble.PerformSort();
-        /// for(int i = 0; i < listOfDouble.Count; i ++){
+        /// for(int i = 0; i &lt; listOfDouble.Count; i ++){
         ///     Console.Write(listOfDouble[i]);
         ///     Console.Write(" ")        
         ///}
@@ -40,9 +40,9 @@ namespace library
         /// </remarks>
         /// <example>
         /// <code>
-        /// List&ltdouble&gt listOfDouble=  List&ltdouble&gt{ 1.2, 1.3, 1.4, 1.5 };
+        /// List&lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
         /// QuickSort(listOfDouble, 0, listOfDouble.Count-1);
-        /// for(int i = 0; i < listOfDouble.Count; i ++){
+        /// for(int i = 0; i &lt; listOfDouble.Count; i ++){
         ///     Console.Write(listOfDouble[i]);
         ///     Console.Write(" ")        
         ///}
@@ -68,9 +68,9 @@ namespace library
         /// </returns>
         /// <example>
         /// <code>
-        /// List&ltdouble&gt listOfDouble=  List&ltdouble&gt{ 1.2, 1.3, 1.4, 1.5 };
+        /// List&lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
         /// Partition(listOfDouble, 0, listOfDouble.Count-1);
-        /// for(int i = 0; i < listOfDouble.Count; i ++){
+        /// for(int i = 0; i &lt; listOfDouble.Count; i ++){
         ///     Console.Write(listOfDouble[i]);
         ///     Console.Write(" ")        
         ///}

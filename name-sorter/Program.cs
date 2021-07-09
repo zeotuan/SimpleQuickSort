@@ -5,13 +5,16 @@ using System.Threading.Tasks;
 using library;
 namespace name_sorter
 {
-    
+
+    ///<summary>
+    /// Main Driver Class of the program 
+    ///</summary>    
     public class Program
     {
 
         ///<summary>
-        /// Main Driver Function of the program 
-        /// take 1 argument input - fileName
+        /// Driver Function 
+        /// take 1 input of string type: fileName
         ///</summary>
         static async Task Main(string[] args)
         {
@@ -34,7 +37,7 @@ namespace name_sorter
         /// </returns>
         /// <example>
         /// <code>
-        /// List&ltName&gt = readNameFile("fileName");
+        /// List&lt;Name&gt; = readNameFile("fileName");
         /// </code>
         /// </example>     
         /// <exception cref="System.IO.FileNotFoundException">
@@ -76,7 +79,7 @@ namespace name_sorter
         /// </remarks>
         /// <example>
         /// <code>
-        /// List&ltdouble&gt listOfDouble=  List&ltdouble&gt{ 1.2, 1.3, 1.4, 1.5 };
+        /// List&lt;double&gt; listOfDouble=  List&lt;double&gt;{ 1.2, 1.3, 1.4, 1.5 };
         /// await writeFile("fileName", listOfDouble);
         /// </code>
         /// </example>     

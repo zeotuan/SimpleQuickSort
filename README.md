@@ -23,8 +23,8 @@ this is an extension method so it can be call directly from list.
 
 ## 3. Testin Library function
 
-Contain all the unit tests for Library function
-run: dotnet test test-library/test-library.csproj // running all test
+Contain all the unit tests for Library function <br />
+to run the test use this command: dotnet test test-library/test-library.csproj // running all test
 
 
 ### 4. Setting up command:
